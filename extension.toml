@@ -1,0 +1,11 @@
+id = "sml"
+name = "Standard ML"
+version = "0.0.1"
+schema_version = 1
+authors = ["Fabian Bergström"]
+description = "Language support for Standard ML."
+repository = "https://github.com/fabjan/zed-sml"
+
+[grammars.standard_ml]
+repository = "https://github.com/stonebuddha/tree-sitter-sml"
+commit = "ec1d78668f160731a818f9b6c75c41ad5fd4e67c"

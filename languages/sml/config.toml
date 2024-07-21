@@ -1,0 +1,10 @@
+name = "Standard ML"
+grammar = "standard_ml"
+path_suffixes = ["sml"]
+block_comment = ["(* ", " *)"]
+brackets = [
+    { start = "{", end = "}", close = true, newline = true },
+    { start = "(", end = ")", close = true, newline = true },
+    { start = "\"", end = "\"", close = true, newline = false, not_in = ["string"] },
+]
+tab_size = 2
